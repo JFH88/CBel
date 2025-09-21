@@ -1,0 +1,32 @@
+Case Study 2 (Guided Coding)
+Cahyo ingin membuat program yang bisa menerima input berupa nama dari user, dan bisa menampilkan "Halo (nama)". Berikut adalah template yang diinginkan oleh Cahyo:
+
+Masukkan nama anda: Cicit
+Halo Cicit
+
+Masukkan nama anda: Cecep Surasep
+Halo Cecep Surasep
+
+Cahyo ingin agar programnya bisa menerima input yang bisa menyimpan maksimal hanya 50 karakter. Cahyo juga ingin agar dia bisa menerima input yang berupa nama lengkap. Bantulah Cahyo membuat program ini
+
+Format penulisan fungsi:
+nama_fungsi(format, ..., ..., ....);
+@
+Deklarasikan header untuk input/output@
+#include <stdio.h>@
+Selalu gunakan "#include" untuk menambahkan header ke dalam program, dan header yang dimaksud adalah "standard input output"@
+Deklarasikan fungsi main(gunakan "int", dan tuliskan dengan tanpa buka-tutup kurung kurawal)@
+int main()@
+yang dimaksud adalah fungsi "int main()"@
+Sekarang kita sudah ada di main program. Deklarasikan variabel dengan nama "namaUser" untuk menyimpan 50 kata(dan tanda '\0')@
+char namaUser[51];@
+Tipe yang digunakan tentu adalah tipe data string. Jangan lupa untuk menyertakan titik koma di akhir@
+Mari kita mendeklarasikan input namanya dengan scanf. Jangan lupa menggunakan format di atas@
+scanf("%[^\n]", namaUser);@
+perhatikan format specifier yang harus digunakan, karena Cecep ingin programnya bisa menerima input hingga user menekan enter. Kemudian, tuliskan nama variabel setelah koma. Ingat, tipe data string tidak memerlukan "&" untuk input, dan jangan lupa titik koma di akhir@
+Oke, sekarang mari kita deklarasikan fungsi inputnya dengan printf. Jangan lupa untuk menggunakan format di atas dan menambahkan newline di akhir ya@
+printf("Halo %s\n", namaUser);@
+Jangan lupa untuk membuat formatnya sesuai dengan dengan yang diinginkan Cahyo, yaitu "Halo (nama)", diikuti koma dan nama variabel. Jangan lupa, titik koma di akhir ya@
+Selamat, kamu telah berhasil membuat program inputnya. Sekarang, mari kita tutup dengan menuliskan "return"nya@
+return 0;@
+nilai returnya adalah 0. Jangan lupa titik komanya ya@

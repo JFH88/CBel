@@ -1,0 +1,45 @@
+parameter dalam c:
+
+Dalam bahasa pemrograman C, parameter adalah nilai yang diberikan kepada suatu fungsi saat fungsi tersebut dipanggil. Parameter memungkinkan fungsi untuk menerima input dari pemanggilnya dan melakukan operasi atau mengembalikan hasil berdasarkan input tersebut. Parameter dideklarasikan dalam tanda kurung setelah nama fungsi dan digunakan dalam tubuh fungsi.
+
+Parameter Formal:
+
+Parameter formal adalah variabel yang dideklarasikan dalam tanda kurung parameter fungsi. Ini adalah nama yang akan digunakan dalam tubuh fungsi.
+Contoh:
+
+// 'a' dan 'b' adalah parameter formal
+int tambah(int a, int b) {
+    return a + b;
+}
+
+
+Parameter Aktual:
+
+Parameter aktual adalah nilai yang diberikan saat pemanggilan fungsi. Nilai ini akan disalin ke dalam parameter formal saat fungsi dipanggil.
+Contoh:
+
+int main() {
+    int hasil = tambah(3, 5); // '3' dan '5' adalah parameter aktual
+    return 0;
+}
+
+Contoh penggunaan parameter dalam fungsi:
+
+#include <stdio.h>
+
+// Fungsi dengan dua parameter formal 'a' dan 'b'
+int tambah(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    // Memanggil fungsi dengan dua parameter aktual, yaitu '3' dan '5'
+    int hasil = tambah(3, 5);
+
+    // Menampilkan hasil
+    printf("Hasil penjumlahan: %d\n", hasil);
+
+    return 0;
+}
+
+Penting untuk dicatat bahwa dalam pemrograman C, parameter ditransmisikan menggunakan mekanisme "pass by value". Artinya, nilai parameter aktual disalin ke dalam variabel parameter formal, sehingga perubahan yang terjadi di dalam fungsi tidak memengaruhi nilai asli dari parameter yang dikirim. Jika perlu mengubah nilai variabel yang dikirim, maka perlu menggunakan pointer atau referensi.

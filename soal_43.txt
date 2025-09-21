@@ -1,0 +1,3 @@
+1. Malloc adalah salah satu contoh fungsi yang bisa digunakan untuk mendeklarasikan variabel/kumpulan variabel secara ...@
+dinamis@
+ukuran/memori yang digunakan ketika menggunakan malloc tidak "statis" dan bisa diubah ketika kita mau(dinamis)@

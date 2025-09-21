@@ -1,0 +1,13 @@
+scanf adalah fungsi dalam bahasa C yang digunakan untuk membaca input dari pengguna atau dari suatu sumber tertentu.
+
+Fungsi scanf memerlukan operator & (alamat) karena ia perlu tahu di mana tempatnya untuk menyimpan nilai yang dibaca. Dalam konteks scanf, %d, %f, %c, dan sebagainya, adalah specifier format yang menunjukkan jenis data yang akan dibaca. Ketika scanf membaca nilai, itu harus tahu di mana menempatkan nilai tersebut dalam memori.
+
+contoh scanf("%d", &umur); atau scanf("%s", nama);
+
+%[^\n] adalah specifier format khusus yang digunakan dalam fungsi scanf atau sscanf untuk membaca sebuah string dari input sampai menemui karakter newline (\n). Mari kita pecahkan secara rinci:
+
+%[ : Awal dari specifier format untuk membaca karakter yang cocok dengan karakter tertentu.
+^ : Karakter caret (^) di dalam tanda kurung ([]) menunjukkan negasi atau kebalikan. Jadi, %[^...] akan membaca karakter yang tidak termasuk dalam set karakter yang diberikan.
+\n : Karakter newline. Dalam konteks ini, specifier akan terus membaca karakter sampai menemui newline.
+
+contoh scanf("%[^\n]", input);

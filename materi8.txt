@@ -1,0 +1,11 @@
+Dalam bahasa pemrograman C, operator digunakan untuk melakukan operasi pada variabel dan nilai. Operator dapat dibagi menjadi beberapa kategori, termasuk operator aritmatika, operator relasional, operator logika, operator assignment, dan lainnya. Berikut adalah beberapa operator umum dalam C:
+
+Operator Aritmatika:
+
++ (Penambahan)
+- (Pengurangan)
+* (Perkalian)
+/ (Pembagian)
+% (Modulus)
+
+Dalam bahasa pemrograman C, operand adalah nilai atau variabel yang berpartisipasi dalam suatu operasi. Operand dapat menjadi konstanta, variabel, atau ekspresi yang mengembalikan nilai. Sebagai contoh, dalam operasi penambahan a + b, a dan b adalah operand.

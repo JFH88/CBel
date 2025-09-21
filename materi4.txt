@@ -1,0 +1,31 @@
+Tipe data pada bahasa C adalah klasifikasi nilai yang dapat disimpan dalam variabel. Berikut adalah penjelasan singkat untuk beberapa tipe data dasar dalam bahasa C:
+
+int: Digunakan untuk menyimpan bilangan bulat.
+
+float: Digunakan untuk menyimpan bilangan desimal dengan presisi rendah.
+
+double: Digunakan untuk menyimpan bilangan desimal dengan presisi ganda dibandingkan dengan float.
+
+char: Digunakan untuk menyimpan satu karakter(huruf) atau nilai dalam bentuk ASCII.
+
+short: Digunakan untuk menyimpan bilangan bulat dengan ukuran lebih kecil daripada int.
+
+long: Digunakan untuk menyimpan bilangan bulat dengan ukuran lebih besar daripada int.
+
+unsigned: Digunakan untuk menyimpan bilangan bulat positif atau nol tanpa menyimpan nilai negatif.
+
+void: Tipe data yang digunakan untuk mendeklarasikan fungsi yang tidak mengembalikan nilai atau pointer tanpa tipe data.
+
+_Bool: Digunakan untuk menyimpan nilai kebenaran (true atau false).
+
+Format specifier atau spesifier format adalah karakter khusus yang digunakan dalam fungsi pencetakan seperti printf dan scanf pada bahasa C untuk menentukan cara nilai variabel harus dicetak atau dibaca. Berikut adalah beberapa format specifier umum dalam bahasa C:
+
+%d: Menunjukkan bahwa argumen yang akan dicetak atau dibaca adalah bilangan bulat (int).
+
+%f: Digunakan untuk mencetak atau membaca nilai bertipe float (bilangan desimal).
+
+%lf: Digunakan untuk mencetak atau membaca nilai bertipe double (bilangan desimal dengan presisi ganda).
+
+%c: Menunjukkan bahwa argumen yang akan dicetak atau dibaca adalah karakter(char).
+
+%s: Digunakan untuk mencetak atau membaca string (Array of char).

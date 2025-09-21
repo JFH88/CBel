@@ -1,0 +1,9 @@
+1. Perhatikan potongan program ini:
+int i = 10;
+while(i<=20)
+{
+  i+=2;
+}
+Berapakah nilai akhir i?@
+22@
+while tersebut akan berhenti dijalankan jika nilai i lebih dari 20@

@@ -1,0 +1,31 @@
+Array of char di C biasanya digunakan untuk menyimpan string karena pada program c tidak terdapat string
+. Sebuah string dalam bahasa C sebenarnya adalah array of char yang diakhiri dengan karakter null ('\0'). Berikut adalah contoh penggunaan array of char untuk menyimpan dan memanipulasi string:
+
+#include <stdio.h>
+
+int main() {
+    // Deklarasi dan inisialisasi array of char
+    char kata[] = "Hello";
+
+    // Menampilkan string
+    printf("String: %s\n", kata);
+
+    // Mengakses dan memanipulasi karakter dalam string
+    kata[0] = 'h';
+    printf("Modified String: %s\n", kata);
+
+    // Menampilkan karakter satu per satu
+    printf("Characters: ");
+    for (int i = 0; kata[i] != '\0'; i++) {
+        printf("%c ", kata[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+
+output:
+String: Hello
+Modified String: hello
+Characters: h e l l o
+

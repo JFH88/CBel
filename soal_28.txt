@@ -1,0 +1,9 @@
+1. Perhatikan potongan program berikut:
+int A[5],i;
+for(i=0;i<5;i++)
+  A[i] = i;
+for(i=0;i<5;i++)
+  printf("%d," A[i]);
+Apa output program ini?@
+0,1,2,3,4,@
+Setiap iterasi, program akan menyimpan nilai i ke dalam array. Perhatikan pula bahwa program akan selalu memprint koma di akhir@

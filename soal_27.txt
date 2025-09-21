@@ -1,0 +1,10 @@
+1. Cahyo mendeklarasikan array dengan cara berikut:
+int A[] = {5,10,15,20};
+Apakah cara tersebut valid?(ya/tidak)@
+ya@
+kita dapat memberikan nilai pada array pada saat mendeklarasikan@
+2. Cahyo mendeklarasikan array dengan cara berikut:
+int A[] = {5,10,15,20};
+Kemudian, Cahyo mengakses dengan cara: A[3]. Berapakah nilai yang dimaksud?@
+20@
+ingat, index array selalu dimulai dari angka 0;

@@ -1,0 +1,3 @@
+1. Cahya ingin membuat program C, dan ia hendak membandingkan nilai a=10 dan b=10. Kemudian, ia menuliskan a<=b. Apakah program yang dibuat Cahya menghasilkan nilai benar menurut komputer?(ya/tidak)@
+ya@
+tentu "<"(tanda kurang) dan "<="(tanda kurang dari sama dengan) berbeda@

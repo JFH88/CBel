@@ -1,0 +1,2 @@
+printf dalam bahasa C digunakan untuk mencetak output ke layar atau file dengan menggunakan specifier format yang menentukan jenis data yang akan dicetak. 
+contoh printf("Hello word"); atau printf("%d",umur);

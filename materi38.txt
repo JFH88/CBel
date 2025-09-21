@@ -1,0 +1,53 @@
+File processing dalam C:
+
+Pengolahan file dalam C melibatkan membaca data dari file, menulis data ke dalam file, dan melakukan operasi lainnya terkait file. Untuk melakukan operasi ini, C menyediakan beberapa fungsi dasar yang termasuk dalam library <stdio.h> (standar input/output).
+
+Berikut adalah penjelasan untuk beberapa mode yang umum digunakan:
+
+"r" (Read):
+
+Digunakan untuk membuka file dalam mode baca (read).
+
+File harus ada, jika tidak, pembukaan file akan gagal.
+
+Pointer file ditempatkan di awal file.
+
+
+
+"w" (Write):
+
+Digunakan untuk membuka file dalam mode tulis (write).
+
+Jika file sudah ada, isinya akan dihapus; jika tidak ada, file baru akan dibuat.
+
+Pointer file ditempatkan di awal file.
+
+
+"a" (Append):
+
+Digunakan untuk membuka file dalam mode menambahkan (append).
+
+Jika file sudah ada, pointer file ditempatkan di akhir file; jika tidak ada, file baru akan dibuat.
+
+Data baru ditambahkan ke akhir file tanpa menghapus yang sudah ada.
+
+
+"a+" (Append dan Read):
+
+Digunakan untuk membuka file dalam mode menambahkan dan membaca.
+
+Sama seperti "a", namun memungkinkan untuk membaca file juga.
+
+
+
+
+ Berikut adalah beberapa operasi dasar pengolahan file dalam C:
+
+Membuka File:
+
+Fungsi fopen digunakan untuk membuka file sebelum membaca atau menulis ke dalamnya.
+Contoh:
+
+FILE *filePointer;
+filePointer = fopen("nama_file.txt", "r"); // Mode "r" untuk membaca
+

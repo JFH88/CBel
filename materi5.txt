@@ -1,0 +1,3 @@
+Dalam bahasa pemrograman C, kata kunci const digunakan untuk mendeklarasikan konstanta, yang merupakan nilai yang tidak dapat diubah selama program berjalan. Penambahan const dapat digunakan dalam beberapa konteks, baik untuk mendeklarasikan konstanta variabel, pointer, atau fungsi.
+
+Penggunaan const membantu mengamankan nilai atau objek dalam program, mencegah perubahan tidak disengaja, dan memungkinkan kompilator untuk melakukan optimisasi lebih lanjut. Konstan juga dapat memberikan informasi lebih lanjut tentang niat penggunaan nilai, sehingga membuat kode lebih mudah dipahami dan dikelola.

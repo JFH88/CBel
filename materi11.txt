@@ -1,0 +1,12 @@
+Operator logika dalam bahasa pemrograman C digunakan untuk melakukan operasi logika pada nilai-nilai kebenaran (boolean). Operator-operator logika tersebut mencakup:
+
+Logika AND (&&):
+
+Menghasilkan true jika kedua ekspresi yang dibandingkan bernilai true; sebaliknya, menghasilkan false.
+Logika OR (||):
+
+Menghasilkan true jika salah satu dari kedua ekspresi yang dibandingkan bernilai true; menghasilkan false jika keduanya false.
+Logika NOT (!):
+
+Menghasilkan true jika ekspresi yang dibandingkan bernilai false, dan sebaliknya.
+Operator logika sering digunakan dalam kondisi-kondisi pengendalian alur program, di mana keputusan yang diambil bergantung pada nilai-nilai kebenaran dari suatu ekspresi atau kombinasi ekspresi.

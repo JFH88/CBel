@@ -1,0 +1,6 @@
+1. Tanda "=", "+", "-", dan lain-lain disebut sebagai ...@
+operator@
+tanda "=", "+", "-" adalah sesuatu yang melakukan operasi@
+2. Sedangkan a,b,c pada operasi "c = a + b" disebut sebagai ...@
+operand@
+a,b,c adalah sesuatu yang dioperasikan@

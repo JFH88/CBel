@@ -1,0 +1,8 @@
+1. Perhatikan potongan program berikut:
+int i = 20;
+do{
+  i++;
+}while(i<10);
+berapakah nilai akhir i?@
+21@
+ingat, do-while akan menjalankan program di dalamnya paling tidak sekali@

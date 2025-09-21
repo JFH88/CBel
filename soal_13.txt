@@ -1,0 +1,12 @@
+1. Perhatikan potongan program berikut:
+if(10>20)
+  printf("10>20");
+apa output program ini?(Tuliskan "-" (tanpa petik) jika tidak ada)@
+-@
+block statement akan dijalankan jika kondisi pada if bernilai "True"@
+2. Perhatikan potongan program berikut:
+if((10==10) && (20<90))
+  printf("20>90");
+apa output program ini?(Tuliskan "-" (tanpa petik) jika tidak ada)@
+20>90@
+ingat, jangan terkecoh dengan tulisan pada "printf". Tulisan yang dioutput program tidak ada pengaruhnya dengan kondisi pada "if"@

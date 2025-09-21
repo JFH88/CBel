@@ -1,0 +1,21 @@
+
+Operator relasional dalam bahasa pemrograman C digunakan untuk membandingkan dua nilai atau ekspresi dan menghasilkan nilai kebenaran (true atau false). Berikut adalah operator relasional yang umum digunakan:
+
+Sama Dengan (==):
+
+Menghasilkan true jika nilai kiri sama dengan nilai kanan; sebaliknya, menghasilkan false.
+Tidak Sama Dengan (!=):
+
+Menghasilkan true jika nilai kiri tidak sama dengan nilai kanan; sebaliknya, menghasilkan false.
+Kurang Dari (<):
+
+Menghasilkan true jika nilai kiri kurang dari nilai kanan; sebaliknya, menghasilkan false.
+Lebih Dari (>):
+
+Menghasilkan true jika nilai kiri lebih dari nilai kanan; sebaliknya, menghasilkan false.
+Kurang dari atau Sama Dengan (<=):
+
+Menghasilkan true jika nilai kiri kurang dari atau sama dengan nilai kanan; sebaliknya, menghasilkan false.
+Lebih dari atau Sama Dengan (>=):
+
+Menghasilkan true jika nilai kiri lebih dari atau sama dengan nilai kanan; sebaliknya, menghasilkan false

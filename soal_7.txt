@@ -1,0 +1,6 @@
+1. Apa fungsi yang digunakan untuk menerima input dari user(khususnya keyboard) pada bahasa C?@
+scanf@
+merupakan singkatan dari "scan format"@
+2. Cecep ingin membuat program yang bisa menerima input string. format specifier apa yang harus dituliskan Cecep jika dia ingin agar programnya bisa menerima input string, hingga user menekan enter?@
+%[^\n]@
+gunakan kurung siku dengan tanda "^" di dalamnya@

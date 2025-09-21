@@ -1,0 +1,34 @@
+Pernyataan if, else if, dan else dalam bahasa pemrograman C digunakan bersama-sama untuk membuat struktur pengambilan keputusan yang lebih kompleks. Mereka memberikan kemampuan untuk mengevaluasi beberapa kondisi dan menjalankan blok kode yang sesuai dengan kondisi yang terpenuhi.
+
+struktur nya:
+ 
+  if (kondisi1) {
+    // Blok kode yang dijalankan jika kondisi1 benar
+} else if (kondisi2) {
+    // Blok kode yang dijalankan jika kondisi1 salah dan kondisi2 benar
+} else {
+    // Blok kode yang dijalankan jika semua kondisi sebelumnya salah
+}
+
+
+Contoh Penggunaan if, else if, dan else:
+
+int main() {
+    int nilai = 75;
+
+    if (nilai >= 90) {
+        printf("A\n");
+    } else if (nilai >= 80) {
+        printf("B\n");
+    } else if (nilai >= 70) {
+        printf("C\n");
+    } else if (nilai >= 60) {
+        printf("D\n");
+    } else {
+        printf("E (Gagal)\n");
+    }
+
+    return 0;
+}
+
+output = C.

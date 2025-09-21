@@ -1,0 +1,18 @@
+Case Study 6 (Theory Application in Coding)
+Cicit baru saja belajar tentang materi pointer, tapi dia masih agak kesulitan. Ia masih bingung, meskipun telah membaca materi pointer dari berbagai sumber, berkali-kali. Ia Meminta bantuanmu untuk menjawab beberapa pertanyaan yang dimilikinya@
+Deklarasi pointer: int ?a;
+Apa yang seharusnya ditulikan di tanda "?"@
+*@
+Tanda "*" atau "&" yang digunakan?@
+Memberikan alamat variabel lain ke pointer: a = ?b;
+Apa yang seharusnya ditulikan di tanda "?"@
+&@
+Tanda "*" atau "&" yang digunakan?@
+Pointer: a = &b;
+apakah yang disimpan oleh a dari b?@
+alamat@
+ingat, pointer adalah penunjuk alamat, maka variabel yang bertipe pointer menyimpan alamat variabel yang ditunjuknya.@
+Mengubah nilai dengan pointer: *a = 30(a adalah pointer ke b=10)
+Berapakah nilai b sekarang?@
+30@
+Kita telah mengubah nilai b melalui pointer a@

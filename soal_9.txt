@@ -1,0 +1,6 @@
+1. Cahyo menuliskan prorgram perhitungan. Berikut potongannya:
+int a = 10,b = 10,c;
+c = a + b++ * 10;
+berapakah nilai c sekarang?@
+110@
+ingat, x++ dan ++x berbeda. Perkalian selalu lebih dulu daripada penjumlahan@

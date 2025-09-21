@@ -1,0 +1,6 @@
+1. Perhatikan potongan program ini:
+int i=0;
+for(i=0;i<=10;i++);
+berapa kali pengulangan ini dijalankan?@
+11@
+kondisi yang digunakan adalah "i<=10" sedangkan nilai i awalnya adalah 0@

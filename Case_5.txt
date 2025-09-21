@@ -1,0 +1,40 @@
+Case Study 5 (Coding Analysis)
+Cecep membuat program dengan menggunakan repetition. Berikut programnya:
+1.  #include <stdio.h>
+2.
+3.  int main()
+4.  {
+5.   int i=0;
+6.   for(i;i<5;i++)
+7.   {
+8.     if(i==3)
+9.       continue;
+10.    printf("Halo");
+11.  }
+12.   while(i<=10)
+13.   {
+14.     printf("semua");
+15.     i++;
+16.   }
+17.
+18.   return 0;
+19. }
+Mari kita analysis program yang dibuat oleh Cecep@
+Pada fungsi for loop, Berapa kali loop tersebut dijalankan?@
+5@
+ingat, yang ditanyakan adalah berapa kali loopnya dijalankan@
+Pada fungsi for loop, berapa kali kata "Halo" dicetak?@
+4@
+continue berarti semua statement di bawahnya(masih di dalam loop) tidak dijalankan. Dengan kata lain, ketika i==3, kata "Halo" tidak tercetak@
+Ketika for loop berakhir, berapakah nilai i?@
+5@
+Caranya, bisa menghitung manual. Perhatikan kondisinya (i<5). Ketika i==5, maka statement-statement di dalam for-loop sudah tidak dijalankan@
+Berapakah nilai awal i sebelum masuk ke while-loop?@
+5@
+Nilainya sama dengan nilai i akhir setelah for loop(soal sebelumnya), bukan 0@
+Berapa kalikah kata "semua" dicetak?@
+6@
+Nilai awalnya 5, dan kondisinya adalah i<=10@
+Berapakah nilai i ketika while loop berakhir?@
+11@
+Perhatikan bahwa while loop tersebut berakhir ketika nilai i TIDAK kurang dari sama dengan 10@

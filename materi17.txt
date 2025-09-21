@@ -1,0 +1,19 @@
+Dalam bahasa pemrograman C, terdapat tiga jenis perulangan (loop) utama: for, do-while, dan while. 
+
+for loop:
+
+for (inisialisasi; kondisi; perubahan) {
+    // Blok kode yang akan diulang
+}
+
+inisialisasi: Ekspresi yang dieksekusi satu kali di awal loop.
+
+kondisi: Ekspresi boolean yang menentukan apakah loop akan terus berlanjut atau tidak.
+
+perubahan: Ekspresi yang dieksekusi setiap kali loop selesai dijalankan.
+
+Blok kode yang berada di dalam kurung kurawal {} akan diulang selama kondisi masih benar.
+
+for (int i = 0; i < 5; i++) {
+    // Blok kode yang diulang lima kali
+}

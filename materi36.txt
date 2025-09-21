@@ -1,0 +1,50 @@
+Fungsi malloc (Memory Allocation) adalah fungsi dalam bahasa pemrograman C yang digunakan untuk mengalokasikan memori secara dinamis. Dengan menggunakan malloc, Anda dapat mengalokasikan memori pada waktu runtime dan mengembalikan pointer ke blok memori yang dialokasikan. Berikut adalah contoh penggunaan malloc:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    // Mengalokasikan memori untuk menyimpan satu integer (4 byte)
+    int *ptr = (int *)malloc(sizeof(int));
+
+    if (ptr == NULL) {
+        // Penanganan jika alokasi memori gagal
+        printf("Alokasi memori gagal.\n");
+        return 1;
+    }
+
+    // Menyimpan nilai 42 ke dalam memori yang dialokasikan
+    *ptr = 42;
+
+    // Menampilkan nilai yang disimpan
+    printf("Nilai yang disimpan: %d\n", *ptr);
+
+    // Wajib untuk membebaskan memori setelah selesai digunakan
+    free(ptr);
+
+    return 0;
+}
+
+Penjelasan:
+
+#include <stdlib.h>:
+
+Header file yang menyediakan deklarasi fungsi malloc dan fungsi-fungsi terkait, seperti free.
+
+Pemanggilan malloc(sizeof(int)):
+
+Fungsi malloc digunakan untuk mengalokasikan memori untuk satu integer (sizeof(int) byte) dan mengembalikan pointer ke blok memori yang dialokasikan.
+(int *) adalah cast yang digunakan untuk mengonversi tipe data pointer yang dikembalikan oleh malloc menjadi int * (pointer ke integer).
+
+Pengecekan keberhasilan alokasi:
+
+Setelah pemanggilan malloc, penting untuk memeriksa apakah alokasi memori berhasil atau tidak. Jika alokasi gagal, malloc akan mengembalikan NULL.
+
+Penyimpanan dan Penggunaan Memori:
+
+Nilai 42 disimpan dalam blok memori yang dialokasikan menggunakan pointer.
+Memori yang dialokasikan bisa digunakan seperti variabel biasa.
+
+free(ptr):
+
+Setelah selesai menggunakan blok memori yang dialokasikan, kita harus membebaskannya menggunakan fungsi free untuk mencegah kebocoran memori.

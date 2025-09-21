@@ -1,0 +1,6 @@
+1. Fungsi yang memanggil dirinya sendiri disebut sebagai fungsi ...@
+rekursif@
+fungsi yang "rekursif", bekerja dengan memanggil dirinya sendiri@
+2. Selain rekursif, sebenarnya masalah tersebut juga bisa diselesaikan dengan cara ...@
+iterasi@
+Tidak hanya rekursif, tapi juga "iterasi" atau pengulangan@

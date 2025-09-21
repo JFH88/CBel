@@ -1,0 +1,15 @@
+Dalam pemrograman C, pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Pointer memungkinkan Anda untuk bekerja dengan langsung dengan lokasi memori dan mengakses nilai yang disimpan di sana. Penggunaan pointer dapat memungkinkan manipulasi memori secara efisien dan fleksibel. Berikut adalah beberapa konsep dasar tentang pointer:
+
+Deklarasi dan Inisialisasi:
+
+int *ptr;  // Deklarasi pointer untuk menyimpan alamat variabel bertipe int
+int angka = 42;
+ptr = &angka;  // Inisialisasi pointer dengan alamat variabel 'angka'
+
+
+Operator Address-of (&):
+
+Operator & digunakan untuk mendapatkan alamat memori dari suatu variabel.
+
+int angka = 42;
+int *ptr = &angka;  // 'ptr' sekarang berisi alamat memori dari 'angka'

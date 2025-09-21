@@ -1,0 +1,6 @@
+1. Komputer menerima apa yang kita ketikkan melalui keyboard, berarti komputer bisa melakukan fitur ...@
+input@
+lawan dari "output"@
+2. Komputer bisa melakukan beberapa operasi, salah satunya adalah pengulangan atau yang sering disebut dengan ... dalam pemrograman@
+looping@
+nama lain dari "repetition" dalam dunia IT (looping)@

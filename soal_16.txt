@@ -1,0 +1,14 @@
+1. Perhatikan potongan program berikut:
+char grade = 'A';
+switch(nilai)
+{
+  case 'A':
+    printf("nilai anda 80-100");
+  case 'B':
+    printf("nilai anda 60-80");
+  default:
+    printf("anda tidak lulus");
+}
+apa output program ini?(Tuliskan "-" (tanpa petik) jika tidak ada)@
+nilai anda 80-100@
+agar bisa mengoutput yang ada pada "printf", kondisi pada setiap "case" harus terpenuhi@

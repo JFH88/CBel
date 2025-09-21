@@ -1,0 +1,34 @@
+struct dalam c:
+
+Dalam bahasa pemrograman C, struct (struktur) adalah cara untuk mengelompokkan berbagai jenis data bersama-sama(heterogen) dalam satu unit. Struktur memungkinkan kita membuat tipe data baru yang terdiri dari beberapa variabel dengan tipe data yang berbeda. Setiap variabel dalam struktur disebut sebagai "anggota" atau "field."
+
+Berikut adalah contoh penggunaan struct dalam C:
+
+
+#include <stdio.h>
+
+// Mendefinisikan struktur
+struct Mahasiswa {
+    int rollNumber;
+    char nama[50];
+    float nilai;
+}mahasiswa1;
+
+int main() {
+    // Mendeklarasikan variabel bertipe struct Mahasiswa
+    struct Mahasiswa mahasiswa1;
+
+    // Mengisi data ke dalam variabel struct
+    mahasiswa1.rollNumber = 101;
+    strcpy(mahasiswa1.nama, "John Doe");
+    mahasiswa1.nilai = 85.5;
+
+    // Menampilkan data dari variabel struct
+    printf("Roll Number: %d\n", mahasiswa1.rollNumber);
+    printf("Nama: %s\n", mahasiswa1.nama);
+    printf("Nilai: %.2f\n", mahasiswa1.nilai);
+
+    return 0;
+}
+
+Dalam contoh di atas, struct Mahasiswa didefinisikan dengan tiga anggota: rollNumber (integer), nama (array karakter), dan nilai (float). Kemudian, sebuah variabel mahasiswa1 dari tipe struct tersebut dideklarasikan dan diisi dengan data.

@@ -1,0 +1,39 @@
+Dalam bahasa pemrograman C, continue dan break adalah dua pernyataan kontrol 
+aliran yang digunakan untuk mengontrol jalannya program.
+
+break:
+Pernyataan break digunakan untuk menghentikan eksekusi dari suatu loop atau pernyataan switch (switch-case) secara paksa. Ketika break dijalankan, program akan keluar dari loop atau keluar dari switch-case dan melanjutkan eksekusi program di baris berikutnya setelah loop atau switch-case.
+
+int main() {
+    for (int i = 1; i <= 10; i++) {
+        if (i == 5) {
+            break;  // Keluar dari loop jika i sama dengan 5
+        }
+        printf("%d ", i);
+    }
+
+    return 0;
+}
+
+Output:
+1 2 3 4
+
+continue:
+Pernyataan continue digunakan untuk melompati sisa blok kode di dalam loop dan melanjutkan iterasi berikutnya dari loop. Dengan kata lain, ketika continue dijalankan, program akan langsung melompat ke langkah iterasi berikutnya tanpa menjalankan kode di bawahnya di dalam loop.
+
+Contoh penggunaan continue dalam loop:
+
+
+int main() {
+    for (int i = 1; i <= 5; i++) {
+        if (i == 3) {
+            continue;  // Lewatkan iterasi jika i sama dengan 3
+        }
+        printf("%d ", i);
+    }
+
+    return 0;
+}
+
+Output:
+1 2 4 5

@@ -1,0 +1,25 @@
+Dalam pemrograman C, prototype adalah deklarasi fungsi yang menyediakan informasi tentang fungsi sebelum implementasinya. Prototype digunakan untuk memberi tahu kompiler tentang tipe data kembalian fungsi, jenis parameter yang diharapkan, dan urutan tipe data parameter tersebut. Ini memungkinkan kompiler untuk melakukan pengecekan tipe dan memastikan bahwa fungsi dipanggil dengan benar sebelum implementasinya ditemukan. Ketika kita membuat sebuah fungsi di atas main, tapi kita menuliskan isi fungsinya di bawah main, maka fungsi di atas main tersebut disebut dengan prototype
+
+contoh:
+
+#include <stdio.h>
+
+// Prototype fungsi
+int tambah(int a, int b);
+
+int main() {
+    // Pemanggilan fungsi
+    int hasil = tambah(3, 5);
+    printf("Hasil penjumlahan: %d\n", hasil);
+
+    return 0;
+}
+
+// Implementasi fungsi
+int tambah(int a, int b) {
+    return a + b;
+}
+
+Dalam contoh di atas, int tambah(int a, int b); adalah prototype untuk fungsi tambah. Ini memberitahu kompiler bahwa ada sebuah fungsi bernama tambah yang mengembalikan nilai bertipe int dan menerima dua parameter, yaitu int a dan int b. Implementasi fungsi tersebut kemudian ditemukan di bawah fungsi main.
+
+

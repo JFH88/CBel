@@ -1,0 +1,3 @@
+1. Cecep ingin membuat variabel pointer dan menuliskan "int &a = &b", dan menyebut bahwa a adalah pointer. Ketika dijalankan, ia mendapat pesan error. Apa tanda yang seharusnya digunakan Cecep pada variabel a?@
+*@
+& digunakan untuk mengakses alamatnya. Saat deklarasi pointer, kita tidak menggunakan tanda tersebut@

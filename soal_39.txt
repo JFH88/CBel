@@ -1,0 +1,6 @@
+1. struct di dalam struct disebut sebagai ...(tuliskan dengan spasi)@
+nested struct@
+struct yang dimaksud adalah "struct yang bersarang"@
+2. struct juga bisa dideklarasikan dengan terdiri dari beberapa elemen, atau yang disebut juga dengan ...@
+array of struct@
+biasanya, kumpulan "struct" tersebut dideklarasikan dengan menggunakan "array"@

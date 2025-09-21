@@ -1,0 +1,13 @@
+Operator Inkrement (++):
+
+Operator inkrement (++) digunakan untuk menambah nilai variabel dengan 1.
+Ada dua bentuk operator inkrement: prefix dan postfix.
+Prefix (++x): Nilai variabel ditingkatkan sebelum nilai yang baru dihasilkan digunakan.
+Postfix (x++): Nilai variabel ditingkatkan setelah nilai yang lama dihasilkan digunakan
+
+Operator Dekrement (--):
+
+Operator dekrement (--) digunakan untuk mengurangkan nilai variabel dengan 1.
+Seperti operator inkrement, operator dekrement juga memiliki bentuk prefix dan postfix.
+Prefix (--x): Nilai variabel dikurangkan sebelum nilai yang baru dihasilkan digunakan.
+Postfix (x--): Nilai variabel dikurangkan setelah nilai yang lama dihasilkan digunakan.

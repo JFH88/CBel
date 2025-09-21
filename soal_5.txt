@@ -1,0 +1,6 @@
+1. ketika kita ingin membuat data yang tetap(konstan), kita bisa menuliskan ... di depan tipe data yang kita deklarasikan@
+const@
+seperti namanya, "konstanta" adalah suatu nilai yang tetap@
+2. Cipto mendeklarasikan constant dengan tipe int dan memberi nama "konstanta". Kemudian, pada baris berikutnya, ia ingin mengubah nilai "konstanta". Apakah yang dilakukan oleh Cipto valid?(ya/tidak)@
+tidak@
+nilai "constant" tidak dapat diubah@

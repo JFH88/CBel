@@ -1,0 +1,6 @@
+1. Apa nama fungsi yang digunakan untuk mengoutput tulisan ke layar pada bahasa C?@
+printf@
+terdiri dari 5 huruf dan merupakan singkatan dari kata "print format"@
+2. Apa nama header tempat printf dideklarasikan? (tuliskan tanpa include dan tag)@
+stdio.h@
+header yang digunakan adalah header "standard input output"@

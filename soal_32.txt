@@ -1,0 +1,6 @@
+1. Dalam pembuatan program, sebaiknya kita membagi program menjadi beberapa bagian. Bagian tersebut disebut dengan ...(tuliskan dengan spasi)@
+sub program@
+sebuah program yang panjang, sebaiknya dibagi menjadi beberapa "sub-sub" bagian sehingga memudahkan kita dan programmer lain membaca program kita@
+2. Teknik memecah program menjadi program disebut dengan ... programming@
+modular@
+program yang panjang bisa dipecah menjadi beberapa "module" yang dikhususkan untuk menyelesaikan tugas yang lebih spesifik.

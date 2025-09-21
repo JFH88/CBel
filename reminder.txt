@@ -1,0 +1,3 @@
+username,waktu belajar(tanggal/bulan/tahun jam:menit:detik)
+q111,30/12/2023 7:42:48
+a123,30/12/2023 7:48:44

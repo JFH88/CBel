@@ -1,0 +1,59 @@
+operasi dasar pengolahan file di c:
+
+Membuka File:
+
+Fungsi fopen digunakan untuk membuka file sebelum membaca atau menulis ke dalamnya.
+Contoh:
+
+FILE *filePointer;
+filePointer = fopen("nama_file.txt", "r"); // Mode "r" untuk membaca
+Membaca dari File:
+
+Fungsi fscanf atau fgets digunakan untuk membaca data dari file.
+Contoh:
+
+int data;
+fscanf(filePointer, "%d", &data);
+Menulis ke File:
+
+Fungsi fprintf atau fputs digunakan untuk menulis data ke dalam file.
+Contoh:
+
+fprintf(filePointer, "Hello, World!\n");
+Menutup File:
+
+Fungsi fclose digunakan untuk menutup file setelah selesai membaca atau menulis.
+Contoh:
+
+fclose(filePointer);
+
+Berikut adalah contoh program sederhana yang membaca dan menulis file:
+
+
+#include <stdio.h>
+
+int main() {
+    // Membuka file untuk menulis
+    FILE *fileWrite = fopen("output.txt", "w");
+
+    // Menulis ke file
+    fprintf(fileWrite, "Hello, World!\n");
+
+    // Menutup file setelah selesai menulis
+    fclose(fileWrite);
+
+    // Membuka file untuk membaca
+    FILE *fileRead = fopen("output.txt", "r");
+
+    // Membaca dari file
+    char buffer[100];
+    fgets(buffer, sizeof(buffer), fileRead);
+    printf("Isi file: %s", buffer);
+
+    // Menutup file setelah selesai membaca
+    fclose(fileRead);
+
+    return 0;
+}
+Program di atas membuka file "output.txt" untuk menulis, menulis teks ke dalamnya, menutupnya, kemudian membuka kembali untuk membaca, membaca teks dari file, dan menutupnya lagi. Operasi-operasi ini memungkinkan manipulasi data melalui file dalam program C.
+

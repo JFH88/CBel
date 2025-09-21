@@ -1,0 +1,26 @@
+Case Study 8 (Guided Coding)
+Candra ingin menerapkan modular programming pada program yang dibuatnya. Berikut kode yang telah dibuatnya:
+1.  #include <stdio.h>
+2.
+3.  int main()
+4.  {
+5.    int a = 10, b = 20;
+6.    int c = tambah(a,b);
+7.    printf("%d", c);
+8.
+9.    return 0;
+10. }
+Bantulah Candra membuat fungsi tambah, sehingga programnya bisa mengeluarkan angka 30@
+Pertama, tipe fungsi apa yang harus dibuat?@
+int@
+kita tidak bisa menggunakan void, karena nilai variabelnya akan disimpan ke c nantinya@
+Tuliskan fungsinya lengkap dengan namanya(tanpa buka tutup kurung kurawal). nama variabel yang akan menampung nilai a dan b adalah "x" dan "y", yang dipisahkan dengan spasi@
+int tambah(int x, int y)@
+Jangan lupa untuk menambahkan "(int x, int y)" setelah kata "tambah"@
+Sekarang kita ada di dalam fungsi tambah
+Buatlah variabel hasil(integer) yang langsung menyimpan hasil penjumlahan x dan y(jangan lupa untuk memisahkan dengan spasi)@
+int hasil = x + y;@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Selesai, tinggal menuliskan return nilainya@
+return hasil;@
+tentu saja, yang di return adalah nilai variabel "hasil"@

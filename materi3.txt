@@ -1,0 +1,3 @@
+Dalam pemrograman komputer, variabel atau peubah adalah letak penyimpanan dan terkait nama simbolis yang berisi beberapa kuantitas yang diketahui atau tidak diketahui atau informasi, nilai.
+
+Nilai pada Variabel pun dapat diubah dan berubah.

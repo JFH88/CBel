@@ -1,0 +1,3 @@
+input digunakan untuk memasukkan data atau informasi ke dalam sistem atau program komputer, sedangkan perangkat output 
+digunakan untuk menampilkan hasil dari proses yang telah dilakukan oleh sistem atau program komputer.
+Perulangan atau disebut Looping adalah bahasa pemrograman dan algoritma yang kegunaannya untuk mengulang sebuah perintah/intruksi yang dibuat dalam script sesuai dengan jumlah yang telah ditentukan atau juga di sebut repetition.

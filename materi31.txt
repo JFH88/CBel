@@ -1,0 +1,63 @@
+Rekursi dan iterasi:
+
+Rekursi dan iterasi adalah dua konsep dasar dalam pemrograman yang berhubungan dengan cara suatu tugas diulang atau dijalankan. Berikut adalah penjelasan singkat tentang keduanya dalam konteks bahasa pemrograman C:
+
+Rekursi:
+Rekursi adalah teknik di mana suatu fungsi memanggil dirinya sendiri. Fungsi yang menggunakan rekursi memiliki dua bagian utama: basis rekursi dan langkah rekursi. Basis rekursi adalah kondisi di mana fungsi berhenti memanggil dirinya sendiri, sementara langkah rekursi adalah langkah-langkah yang diambil oleh fungsi untuk mendekati basis rekursi.
+
+Contoh sederhana dari fungsi rekursif adalah perhitungan faktorial:
+
+#include <stdio.h>
+
+// Fungsi rekursif untuk menghitung faktorial
+int faktorial(int n) {
+    // Basis rekursi
+    if (n == 0 || n == 1) {
+        return 1;
+    } else {
+        // Langkah rekursi
+        return n * faktorial(n - 1);
+    }
+}
+
+int main() {
+    int hasil = faktorial(5);
+    printf("Faktorial dari 5: %d\n", hasil);
+
+    return 0;
+}
+
+
+Iterasi:
+Iterasi melibatkan pengulangan suatu blok kode atau tugas menggunakan loop. Dalam bahasa pemrograman C, terdapat beberapa jenis loop, seperti for, while, dan do-while, yang memungkinkan kita untuk mengulang sejumlah kode selama kondisi tertentu terpenuhi.
+
+Contoh penggunaan iterasi untuk menghitung faktorial:
+
+#include <stdio.h>
+
+// Fungsi iteratif untuk menghitung faktorial
+int faktorial(int n) {
+    int hasil = 1;
+    for (int i = 1; i <= n; ++i) {
+        hasil *= i;
+    }
+    return hasil;
+}
+
+int main() {
+    int hasil = faktorial(5);
+    printf("Faktorial dari 5: %d\n", hasil);
+
+    return 0;
+}
+
+Perbandingan:
+
+Rekursi memerlukan ruang memori tambahan untuk menyimpan status panggilan fungsi yang masih aktif (disebut "stack"), sementara iterasi menggunakan struktur loop tanpa menyimpan status fungsi.
+
+Rekursi dapat membuat kode lebih mudah dibaca dan mudah dimengerti dalam beberapa kasus, tetapi dapat memiliki overhead memori dan kinerja.
+
+Iterasi sering kali lebih efisien dari segi kinerja dan memori, tetapi dapat membuat kode terlihat lebih kompleks dalam beberapa kasus.
+
+Pemilihan antara rekursi dan iterasi tergantung pada masalah yang dihadapi dan preferensi pribadi pengembang. Beberapa masalah lebih mudah atau lebih alami dipecahkan dengan rekursi, sementara yang lain mungkin lebih cocok untuk pendekatan iteratif.
+

@@ -1,0 +1,69 @@
+Study Case 11 (Guided Coding)
+Cecep telah yakin dengan kemampuan kodingnya sekarang. Ia bahkan berani menantangmu untuk membuat program dengan menggunakan file processing. Ia ingin agar kamu membuat program yang bisa menyimpan data nama lengkap dan umur. Berikut adalah ketentuan yang ditetapkan oleh Cecep:
+nama file: data.txt
+format input: nama lengkap,umur
+format penyimpanan ke file: nama lengkap - umur
+format penulisan FILE pointer:
+FILE *(nama pointer) = fopen(nama_file, mode);
+format penulisan fungsi(printf/scanf):
+fungsi(format, ....);
+contoh: scanf("%d %d", a, b);
+format penulisan fungsi(fprintf/fscanf):
+fungsi(file_pointer, format, ....);
+contoh: fprinf(file_pointer, "%d %d", a, b);
+
+Berikut contoh inputnya:
+Masukkan nama: Cicit
+Masukkan umur: 17
+
+Masukkan nama: Cecep Surasep
+Masukkan umur: 18
+
+Berikut contoh file yang tersimpan
+Cicit - 17
+Cecep Surasep - 18
+
+Cecep menantangmu untuk membuat program tersebut. Mari kita buat programnya@
+Pertama, kita includekan stdio.h@
+#include <stdio.h>@
+includekan stdio.h (#inlcude <stdio.h>)@
+Kemudian, kita deklarasikan main funtion bertipe int(dengan tanpa buka tutup kurung kurawal)@
+int main()@
+tuliskan int main()@
+Sekarang kita sudah di main function. Kemudian, mari kita deklarasikan pointer ke file "data.txt". Gunakan format penulisan di atas. nama variabelnya adalah "filePointer". Gunakan mode "append" karena kita mau menambahkan data@
+FILE *filePointer = fopen("data.txt", "a");@
+tuliskan sesuai dengan format di atas. Jangan lupa untuk menggunakan mode "a"@
+Mari kita buat kondisi berikut. Jika file pointernya kosong(file_pointer == NULL), maka kita akan keluar dari program@
+if(filePointer == NULL)@
+Jangan menambahkan titik koma di akhir@
+Sekarang kita ada di dalam if. Cara kita mengeluarkan dari program adalah dengan mengetikkan return yang bernilai 1@
+return 1;@
+Maksudnya adalah "return 1;"@
+Kita telah di luar if. Sekarang mari kita deklarasikan 2 variabel untuk menampung input
+Pertama adalah variabel string bernama "nama" yang bisa menampung 100 huruf dan tanda '\0'@
+char nama[101];@
+perhatikan bahwa jumlah karakter yang seharusnya ditampung variabel "nama" berjumlah 100+1@
+Kemudian, kita deklarasikan variabel "umur" yang bertipe "int"@
+int umur;@
+deklarasikan "int umur"@
+Kemudian, kita buat kondisi. Selama file pointer belum end-of-file(!feof(file_pointer)), maka kita akan tetap membaca input dari user, dan menyimpannya ke dalam file. Gunakan "do{}while(kondisi);"@
+do{}while(!feof(filePointer));@
+Jangan lupa untuk menambahkan titik koma di akhir. Nama file_pointernya adalah "filePointer"@
+sekarang kita ada di dalam do-while loop. Sekarang kita buat print untuk memberi keterangan kepada user untuk menginput nama dengan printf@
+printf("Masukkan nama: ");@
+Yang dimaksud adalah "Masukkan nama "@
+Kemudian kita akan menerima input dari user yang akan kita simpan di variabel "nama" dengan "scanf"@
+scanf("%[^\n]", nama);@
+Jangan lupa untuk menggunakan "%[^\n]" karena kita ingin agar program kita bisa menerima input hingga user menekan enter. Jangan lupa untuk menambahkan titik koma di akhir@
+Kemudian kita akan membuat keterangan untuk menginput umur dengan printf@
+printf("Masukkan umur: ");@
+Maksudnya adalah "Masukkan umur: ". Jangan lupa untuk menambahkan titik koma di akhir@
+Lalu, kita akan menerima input dari user yang kita simpan di variabel "umur" dengan "scanf"@
+scanf("%d", &umur);@
+Jangan lupa untuk menambahkan tanda "&" di depan nama variabel "umur". Jangan lupa untuk menambahkan titik koma di akhir@
+Kemudian, kita akan menyimpan data tersebut ke dalam file "data.txt". Mari kita gunakan fungsi fprintf. Jangan lupa untuk menggunakan format di atas@
+fprintf(filePointer, "%s - %d\n", nama, umur);@
+Jangan lupa untuk menambahkan "\n" sebelum akhir dari format agar file kita tampak lebih rapi@
+Sekarang kita sudah di luar loop. SELAMAT, kamu telah berhasil menyelesaikan tantangan dari Cecep, dan ia merasa kagum dengan kemampuanmu. Sekarang kita tinggal menambahkan return yang bernilai 0@
+return 0;@
+Maksudnya adalah "return 0"@

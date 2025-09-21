@@ -1,0 +1,35 @@
+Case Study 7 (Error Analysis)
+Cahyo membuat program yang bisa menyimpan data angka. Berikut programnya:
+1.  #include <stdio.h>
+2.
+3.  int main()
+4.  {
+5.    int angka[5];
+6.    int i;
+7.    for(i=1;i<=5;i++)
+8.    {
+9.      printf("Masukkan angka ke-%d: ", i);
+10.     scanf("%d", angka[i]);
+11.   }
+12.
+13.   for(i=1;i<=5;i++)
+14.   {
+15.     printf("angka ke-%d adalah %d\n", i, angka[i]);
+16.   }
+17.
+18.   return 0;
+19. }
+Ketika dijalankan, ia mendapat pesan error. Bantulah Cahyo untuk menemukan kesalahannya@
+Pada baris ke 10, apa yang seharusnya dituliskan Cahyo?(tuliskan lengkap dengan scanf dan sesuai format tersebut)@
+scanf("%d", &angka[i]);@
+jika ingin menerima input yang akan disimpan ke variabel bertipe integer, maka kita tidak boleh lupa menuliskan tanda "&"@
+Setelah itu, ketika dijalankan, program berjalan sesuai dengan yang diinginkan. Tetapi, ini bukan contoh yang baik
+Pada baris ke 7, apa initial(i=1) yang seharusnya dituliskan oleh Cahyo?@
+i=0@
+i tidak bisa mulai dari 1, karena index array selalu mulai dari 0, hingga n-1. Jadi, menuliskan kode tersebut tidak baik@
+Masih pada baris ke 7, apa syarat(i<=5) yang seharusnya dituliskan oleh Cahyo?(gunakan kurang dari sama dengan)@
+i<=4@
+Maksimal elemen array "angka" adalah n-1(5-1=4)@
+Selain pada baris ke-7, baris mana lagi yang harus diubah?@
+13@
+Masalah ada pada for-loop berikutnya@

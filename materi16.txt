@@ -1,0 +1,49 @@
+Pernyataan switch dalam bahasa pemrograman C digunakan untuk membuat struktur pengambilan keputusan yang membandingkan ekspresi dengan sejumlah nilai dan menjalankan blok kode yang sesuai dengan nilai yang cocok. Berikut adalah format umum dari pernyataan switch:
+
+
+switch (ekspresi) {
+    case nilai1:
+        // Blok kode yang dijalankan jika ekspresi sama dengan nilai1
+        break;
+    case nilai2:
+        // Blok kode yang dijalankan jika ekspresi sama dengan nilai2
+        break;
+    // ... (bisa ada banyak case lainnya)
+    default:
+        // Blok kode yang dijalankan jika tidak ada nilai yang cocok
+}
+
+Ekspresi: Nilai atau ekspresi yang akan dibandingkan dengan nilai dalam case.
+
+Case: Nilai yang dibandingkan dengan ekspresi. Jika ekspresi sama dengan nilai dalam case, maka blok kode yang sesuai dengan case tersebut akan dijalankan.
+
+Blok Kode: Kode yang dijalankan jika nilai dalam case sesuai dengan ekspresi.
+
+Break: Digunakan untuk keluar dari switch. Jika tidak ada pernyataan break, maka eksekusi akan terus ke case berikutnya tanpa memeriksa apakah nilai sesuai.
+
+Default: Opsional. Blok kode ini dijalankan jika tidak ada case yang cocok dengan nilai ekspresi.
+
+
+Contoh Penggunaan switch:
+
+int main() {
+    char grade = 'B';
+
+    switch (grade) {
+        case 'A':
+            printf("Excellent!\n");
+            break;
+        case 'B':
+            printf("Good job!\n");
+            break;
+        case 'C':
+            printf("Passing grade.\n");
+            break;
+        default:
+            printf("Invalid grade.\n");
+    }
+
+    return 0;
+}
+ 
+output = "Good job".

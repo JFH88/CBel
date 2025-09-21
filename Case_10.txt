@@ -1,0 +1,33 @@
+Study Case 10 (Error & Coding Analysis)
+Cicit membuat program sederhana yang sedikit berbeda dari biasanya. Kali ini ia ingin menggunakan malloc(). Berikut programnya:
+1.  #include <stdio.h>
+2.
+3.  int main()
+4.  {
+5.    int *A = malloc(2 * 4);
+6.    int B[] = malloc(2 * 4);
+7.
+8.    A[0] = 1;
+9.    B[0] = 2;
+10.
+11.   return 0;
+12. }
+Sebenarnya, Cicit sendiri masih ragu akan pemahamannya akan malloc. Bantulah Cicit menemukan kekurangan programnya@
+Selain stdio.h, header apa yang seharusnya dituliskan oleh Cicit?(tuliskan lengkap dengan includenya)@
+#include <stdlib.h>@
+header yang dimaksud adalah "standard library"@
+Kemudian, pada baris ke 6, Cicit mencoba menuliskan "B[]". Tapi, yang seharusnya dituliskan Cicit adalah@
+*B@
+Seharusnya, Cicit menggunakan pointer@
+Pada baris ke 5 dan 6, cicit menggunakan "2 * 4". Angka 4 tersebut berasal dari ukuran integer(4 byte). Sebenarnya, ada cara lain untuk menuliskannya, yaitu dengan ...@
+sizeof(int)@
+Yang dimaksud adalah "sizeof(tipe_data)". Tipe_data yang dimasukkan adalah "int", karena kita ingin ukuran interger@
+Sebenarnya, sebelum "return 0", ada yang seharusnya dituliskan oleh Cicit. Apakah itu?(kita mulai dengan "A" terlebih dahulu)@
+free(A);@
+Setelah menggunakan "malloc", kita tidak boleh lupa untuk memanggil fungsi "free(nama_pointer)" untuk mengembalikan memori yang telah kita pesan. Jangan lupa untuk menambahkan titik koma@
+Kemudian, untuk pointer "B"@
+free(B);@
+Setelah menggunakan "malloc", kita tidak boleh lupa untuk memanggil fungsi "free(nama_pointer)" untuk mengembalikan memori yang telah kita pesan. Jangan lupa untuk menambahkan titik koma@
+Setelah mengetahui kesalahannya, Cicit merasa bahwa menggunakan "malloc" sangat merepotkan. Tapi, sebenarnya ada fungsi yang lebih praktis yang bisa digunakan, karena kita tidak perlu memanggil fungsi "free". Fungsi apakah itu?(tuliskan nama fungsinya saja tanpa kurung)@
+calloc@
+Fungsi yang dimaksud adalah "calloc"@

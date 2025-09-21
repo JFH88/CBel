@@ -1,0 +1,5 @@
+1. Perhatikan potongan program berikut:
+int *a = malloc(sizeof(int));
+cara kita untuk mengembalikan memori yang telah kita pesan adalah@
+free(a)@
+fungsi yang digunakan untuk mengembalikan memori yang telah kita pesan adalah free(nama_variabel_pointer)@

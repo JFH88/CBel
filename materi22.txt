@@ -1,0 +1,38 @@
+Dalam pemrograman C, array adalah struktur data yang menyimpan elemen-elemen dengan tipe data yang sama(homogen) dalam urutan linear di dalam memori. Setiap elemen di dalam array dapat diakses melalui indeks numerik yang dimulai dari 0. Berikut adalah beberapa konsep dasar tentang array:
+
+Deklarasi dan Inisialisasi:
+
+// Deklarasi array bertipe int dengan ukuran 5
+int angka[5];
+
+// Inisialisasi array pada saat deklarasi
+int nilai[] = {10, 20, 30, 40, 50};
+
+
+Akses Elemen Array:
+Elemen-elemen dalam array diakses menggunakan indeks numerik.
+
+int nilai[3] = {10, 20, 30};
+printf("Elemen kedua: %d\n", nilai[1]);
+
+
+contoh:
+
+int main() {
+    // Deklarasi dan inisialisasi array
+    int nilai[] = {10, 20, 30, 40, 50};
+
+    // Menggunakan loop 'for' untuk mengakses dan menampilkan elemen-elemen array
+    for (int i = 0; i < 5; i++) {
+        printf("Elemen %d: %d\n", i, nilai[i]);
+    }
+
+    return 0;
+}
+
+Output dari program ini akan menjadi:
+Elemen 0: 10
+Elemen 1: 20
+Elemen 2: 30
+Elemen 3: 40
+Elemen 4: 50

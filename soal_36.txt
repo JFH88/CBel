@@ -1,0 +1,15 @@
+1. Perhatikan potongan program berikut:
+int kali(int x, int y)
+{
+  int hasil = x*y;
+  return hasil;
+}
+
+int main()
+{
+  int hasilKali = kali(2,5);
+  printf("%d", hasilKali);
+}
+Apakah output program ini?@
+10@
+Kita mempassing nilai 2 dan 5 sebagai "parameter" ke fungsi "kali"@

@@ -1,0 +1,20 @@
+1. Perhatikan potongan program berikut:
+int i;
+for(i=0;i<10;i++)
+  if(i==3)
+    break;
+berapakah nilai terakhir i?@
+3@
+jika kondisi pada if tersebut terpenuhi, maka program akan keluar dari loop@
+2. Perhatikan potongan program berikut:
+int i=5;
+while(i<=10)
+{
+  i++;
+  if(i==7)
+    continue;
+  printf("%d", i);
+}
+Angka berapa sajakah yang tercetak?(tuliskan dengan koma tanpa spasi)@
+6,8,9,10,11@
+continue berarti semua statement setelahnya tidak dijalankan@

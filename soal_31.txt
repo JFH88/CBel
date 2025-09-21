@@ -1,0 +1,6 @@
+1. Dalam C, ketika kita ingin memanipulasi string dengan menggunaan fungsi bawaan dari C, header apa yang harus kita include?(tuliskan tanpa "#include" dan tag)@
+string.h@
+nama headernya sesuai dengan yang ingin kita manipulasi@
+2. Dalam C, kita bisa membandingkan apakah sebuah string sama dengan string lain, dengan menggunakan fungsi ...(tuliskan tanpa kurung)@
+strcmp@
+fungsi yang digunakan adalah "string compare"@

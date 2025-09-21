@@ -1,0 +1,6 @@
+1. Apa nama fungsi utama dalam bahasa C?(tuliskan dengan tanpa int/void, tapi dengan "()")@
+main()@
+tuliskan nama fungsi utama dalam C disertai dengan "()"@
+2. Apa nama header yang kita sertakan untuk input/output?(tuliskan secara lengkap dengan "#inlcude" dan tag)@
+#include <stdio.h>@
+untuk menginput header, selalu diawali dengan "#include". header yang digunakan adalah "standard input output"@

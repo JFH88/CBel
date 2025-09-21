@@ -1,0 +1,15 @@
+1. Berikut adalah potongan program yang menggunakan pointer:
+int a = 10;
+int *b = &a;
+*b = 20;
+berapakah nilai a sekarang?@
+20@
+ketika kita memberikan nilai pada *b, maka nilai a juga ikut berubah, karena b adalah pointer yang menyimpan alamat a@
+2. Berikut adalah potongan program yang menggunakan pointer:
+int a = 25;
+int *b = &a;
+int *c = &b;
+**c = 20;
+Berapakah nilai a sekarang?@
+20@
+c adalah pointer yang menunjuk ke pointer lain. Maka ketika menuliskan **c dan meng-assign nilai, maka akan mengubah nilai a@

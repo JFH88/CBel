@@ -1,0 +1,21 @@
+Pernyataan if dalam bahasa pemrograman C memberikan struktur kontrol alur program berdasarkan evaluasi suatu kondisi. Berikut adalah lebih banyak detail tentang pernyataan if:
+
+Struktur Dasar if:
+
+Kondisi: Ekspresi yang dievaluasi. Jika hasilnya true (nilai bukan nol), maka blok kode di dalam kurung kurawal akan dieksekusi. Jika hasilnya false (nilai nol), maka blok kode tersebut akan dilewati.
+
+Blok Kode: Kode yang dijalankan jika kondisi dianggap benar.
+
+contoh
+
+int main() {
+    int nilai = 75;
+
+    if (nilai >= 60) {
+        printf("Lulus\n");
+    }
+
+    return 0;
+}
+
+output = "Lulus".

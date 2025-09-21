@@ -1,0 +1,16 @@
+string.h adalah sebuah header file dalam bahasa pemrograman C yang menyediakan fungsi-fungsi untuk melakukan operasi terhadap string. Beberapa fungsi yang umumnya digunakan di string.h mencakup manipulasi string, pencarian substring, perbandingan string, dan fungsi-fungsi lainnya yang berkaitan dengan pengelolaan string.
+
+
+strcpy - String Copy:
+char *strcpy(char *destination, const char *source);
+Menyalin isi dari string source ke string destination.
+
+strcat - String Concatenate:
+char *strcat(char *destination, const char *source);
+Menggabungkan (concatenate) string source ke ujung string destination.
+
+strcmp - String Compare:
+int strcmp(const char *str1, const char *str2);
+Membandingkan dua string, mengembalikan nilai negatif jika str1 kurang dari str2, nilai positif jika str1 lebih besar dari str2, dan 0 jika keduanya sama.
+
+dan lain lain.

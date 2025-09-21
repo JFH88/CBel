@@ -1,0 +1,6 @@
+1. untuk membaca file, kita bisa menggunakan mode ...(tuliskan 1 huruf saja)@
+r@
+kita bisa menggunakan mode "read" untuk membaca file@
+2. sedangkan untuk menambahkan ke file, kita bisa menggunakan mode ...(tuliskan 1 huruf saja)@
+a@
+kita bisa menggunakan mode "append" untuk menambahkan data ke file@

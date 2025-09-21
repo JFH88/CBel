@@ -1,0 +1,22 @@
+Case Study 3 (Error Analysis)
+Cicit ingin membuat program perhitungan harga sederhana
+1. #include <stdio.h>
+2.
+3. int main(){
+4.   int harga, diskon;
+5.   scanf("%d %d", harga, diskon);
+6.   hasil = harga - diskon;
+7.   printf("%s", hasil);
+8.
+9.   return 0;
+10. }
+Ketika dijalankan, Cicit mendapat pesan error. Bantulah Cicit untuk membetulkan programnya dengan tanpa mengubah format yang diinginkan Cicit@
+baris ke 5. Yang seharusnya dituliskan Cicit adalah(tuliskan lengkap dengan scanfnya ya)@
+scanf("%d %d", &harga, &diskon);@
+Karena inputnya integer, maka kita tidak boleh lupa untuk menyertakan tanda "&" di depan nama variabel@
+baris ke 6. Yang seharusnya dituliskan Cicit adalah(tuliskan lengkap ya)@
+int hasil = harga - diskon;@
+Karena hasil belum dideklarasikan sebelumnya, maka kita harus mendeklarasikannya terlebih dahulu sebelum memberikan nilai ke variabel hasil dengan cara menambahkan tipe data di depan nama variabel. Gunakan tipe data yang sesuai dengan variabel harga dan diskon ya@
+baris ke 7. Yang seharusnya dituliskan Cicit adalah(tuliskan lengkap dengan prinfnya ya)@
+printf("%d", hasil);@
+hasil adalah variabel yang bertipe integer, bukan string@

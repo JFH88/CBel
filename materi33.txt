@@ -1,0 +1,79 @@
+nested struct dan array of struct:
+
+Dalam bahasa pemrograman C, Anda dapat menggunakan nested struct (struktur bersarang) untuk membuat struktur yang berisi struktur lain sebagai anggotanya. Selain itu, Anda juga dapat membuat array of struct (larik dari struktur) untuk menyimpan beberapa elemen struktur dalam satu variabel array. Berikut adalah contoh penggunaan nested struct dan array of struct:
+
+Nested Struct:
+
+#include <stdio.h>
+
+// Mendefinisikan struktur alamat
+struct Alamat {
+    char jalan[50];
+    char kota[30];
+    int kodePos;
+};
+
+// Mendefinisikan struktur mahasiswa dengan anggota alamat (nested struct)
+struct Mahasiswa {
+    int rollNumber;
+    char nama[50];
+    struct Alamat alamat; // Nested struct
+};
+
+int main() {
+    // Mendeklarasikan variabel bertipe struct Mahasiswa
+    struct Mahasiswa mahasiswa1;
+
+    // Mengisi data ke dalam variabel struct
+    mahasiswa1.rollNumber = 101;
+    strcpy(mahasiswa1.nama, "John Doe");
+    
+    // Mengisi data ke dalam variabel struct alamat (nested struct)
+    strcpy(mahasiswa1.alamat.jalan, "Jl. ABC No. 123");
+    strcpy(mahasiswa1.alamat.kota, "Kota X");
+    mahasiswa1.alamat.kodePos = 12345;
+
+    // Menampilkan data dari variabel struct
+    printf("Roll Number: %d\n", mahasiswa1.rollNumber);
+    printf("Nama: %s\n", mahasiswa1.nama);
+    printf("Alamat: %s, %s, %d\n", mahasiswa1.alamat.jalan, mahasiswa1.alamat.kota, mahasiswa1.alamat.kodePos);
+
+    return 0;
+}
+
+
+Array of Struct:
+
+#include <stdio.h>
+
+// Mendefinisikan struktur mahasiswa
+struct Mahasiswa {
+    int rollNumber;
+    char nama[50];
+};
+
+int main() {
+    // Mendeklarasikan array bertipe struct Mahasiswa
+    struct Mahasiswa daftarMahasiswa[3];
+
+    // Mengisi data ke dalam array of struct
+    daftarMahasiswa[0].rollNumber = 101;
+    strcpy(daftarMahasiswa[0].nama, "John Doe");
+
+    daftarMahasiswa[1].rollNumber = 102;
+    strcpy(daftarMahasiswa[1].nama, "Jane Doe");
+
+    daftarMahasiswa[2].rollNumber = 103;
+    strcpy(daftarMahasiswa[2].nama, "Alice");
+
+    // Menampilkan data dari array of struct
+    for (int i = 0; i < 3; i++) {
+        printf("Roll Number: %d\n", daftarMahasiswa[i].rollNumber);
+        printf("Nama: %s\n", daftarMahasiswa[i].nama);
+        printf("\n");
+    }
+
+    return 0;
+}
+
+Dalam contoh tersebut, kita memiliki struct Mahasiswa yang dapat berisi alamat mahasiswa (nested struct) dan sebuah array of struct Mahasiswa yang menyimpan beberapa mahasiswa sekaligus. Ini memberi fleksibilitas dalam menyusun dan mengorganisir data dalam program C.

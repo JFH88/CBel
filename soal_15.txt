@@ -1,0 +1,25 @@
+1. Perhatikan potongan program berikut:
+int a = 3;
+int b = 5;
+int c = 10
+if(a<b)
+  else if(a<c)
+    printf("a adalah bilangan terkecil");
+apa output program ini?(Tuliskan "-" (tanpa petik) jika tidak ada)@
+a adalah bilangan terkecil@
+agar bisa mengoutput yang ada pada "printf", kondisi pada "if" dan "else if" harus terpenuhi@
+1. Perhatikan potongan program berikut:
+int a = 25;
+int b = 5;
+int c = 75;
+if((a<b) && (a<c))
+  printf("a adalah bilangan terkecil");
+else if(a<b)
+  printf("a lebih kecil dari b");
+else if(a<c)
+  printf("a lebih kecil dari c");
+else
+  printf("a adalah bilangan terbesar");
+apa output program ini?(Tuliskan "-" (tanpa petik) jika tidak ada)@
+a lebih kecil dari c@
+perhatikan kondisi yang ada pada setiap bagian. Ingat, bahasa C selalu membaca program dari atas ke bawah@

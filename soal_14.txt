@@ -1,0 +1,20 @@
+1. Perhatikan potongan program berikut:
+int a = 3;
+int b = 5;
+if(a<b)
+  printf("a>b");
+else
+  printf("a<b");
+apa output program ini?(Tuliskan "-" (tanpa petik) jika tidak ada)@
+a>b@
+fungsi else akan dijalankan jika kondisi pada "if" bernilai "False"@
+2. Perhatikan potongan program berikut:
+int a = 8;
+int b = -1;
+if((a>b) && (b<a))
+  printf("b adalah bilangan terkecil");
+else
+  printf("b bukan bilangan terkecil");
+apa output program ini?(Tuliskan "-" (tanpa petik) jika tidak ada)@
+b adalah bilangan terkecil@
+fungsi else akan dijalankan jika kondisi pada "if" bernilai "False"@

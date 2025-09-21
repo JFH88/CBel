@@ -1,0 +1,7 @@
+while loop:
+
+while (kondisi) {
+    // Blok kode yang akan diulang
+}
+kondisi: Ekspresi boolean yang menentukan apakah loop akan terus berlanjut atau tidak.
+Blok kode yang berada di dalam kurung kurawal {} akan diulang selama kondisi masih benar.

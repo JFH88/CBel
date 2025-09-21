@@ -1,0 +1,10 @@
+1. Perhatikan potongan program berikut:
+typedef struct data
+{
+  char id[11];
+  char nama[51];
+  int umur;
+}pekerja;
+Kita bisa menggunakan ... untuk memanggil "struct data"@
+pekerja@
+dengan kata lain, "pekerja" adalah nama lain/singkatan dari "struct data"@

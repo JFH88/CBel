@@ -1,0 +1,9 @@
+
+Operator ternary, juga dikenal sebagai operator kondisional, adalah operator dalam bahasa pemrograman C yang memberikan sintaksis singkat untuk membuat keputusan berdasarkan suatu kondisi. Operator ternary menggunakan format berikut:
+
+contoh
+
+kondisi ? nilai_jika_true : nilai_jika_false;
+
+Jika kondisi bernilai true, operator ini mengembalikan nilai_jika_true.
+Jika kondisi bernilai false, operator ini mengembalikan nilai_jika_false.

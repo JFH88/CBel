@@ -1,0 +1,29 @@
+Dalam bahasa pemrograman C, tidak ada tipe data boolean bawaan seperti yang ada pada beberapa bahasa pemrograman lainnya. Namun, kita dapat membuat tipe data boolean sendiri menggunakan tipe data enum. Enumerasi (enum) dapat digunakan untuk membuat kumpulan konstanta dengan nama-nama yang mudah diingat. Sebagai contoh, kita dapat membuat enum boolean dengan nilai true dan false(enum boolean memiliki 2 macam nilai, yaitu "Salah" dan "Benar") . Berikut adalah contoh penggunaan enum untuk membuat boolean dalam C:
+
+#include <stdio.h>
+
+// Mendefinisikan tipe data boolean menggunakan enum
+typedef enum {
+    false,  // false direpresentasikan oleh 0
+    true    // true direpresentasikan oleh 1
+} bool;
+
+int main() {
+    // Mendeklarasikan variabel bertipe boolean
+    bool hasil1, hasil2;
+
+    // Menginisialisasi variabel boolean
+    hasil1 = true;
+    hasil2 = false;
+
+    // Menampilkan nilai boolean
+    printf("Hasil 1: %d\n", hasil1);
+    printf("Hasil 2: %d\n", hasil2);
+
+    return 0;
+}
+output:
+Hasil 1: 1
+Hasil 2: 0
+
+Dalam contoh di atas, kita menggunakan typedef untuk membuat tipe data baru yang disebut bool yang memiliki dua nilai: true dan false. Variabel bertipe bool kemudian dapat digunakan untuk menyimpan nilai boolean. Note bahwa true direpresentasikan oleh 1, dan false direpresentasikan oleh 0.

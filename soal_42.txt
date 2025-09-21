@@ -1,0 +1,3 @@
+1. Array adalah salah satu contoh ... memory allocation@
+static@
+ukuran/memori yang digunakan oleh array bernilai "static" dan tidak bisa diubah@

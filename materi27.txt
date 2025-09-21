@@ -1,0 +1,9 @@
+fungsi yang sudah disediakan dari bahasa C yang biasanya kita gunakan disebut Library:
+
+Library dalam bahasa pemrograman C adalah kumpulan kode yang sudah ditulis dan diuji yang dapat digunakan oleh programmer untuk melaksanakan tugas-tugas umum tanpa harus menulis kode dari awal. Library menyediakan implementasi fungsi-fungsi dan rutin-rutin yang sering digunakan, sehingga memungkinkan pengembang untuk menghemat waktu dan upaya. Beberapa library C yang umum digunakan termasuk:
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+dan lain lain.

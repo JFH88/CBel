@@ -1,0 +1,5 @@
+Mengenal Apa itu Fungsi main()?
+int main adalah sebuah fungsi utama dalam bahasa c.
+Maksud dari int di depan main adalah jenis tipe data yang akan dikembalikan nilainya kembali. Di dalam fungsi main(), wajib kamu sertakan return 0. Artinya, fungsi main akan mengembalikan nilai 0 setelah dieksekusi. Cara lain kamu bisa gunakan void, yang artinya tidak ada (kosong).
+
+#include<stdio.h> adalah Library dalam bahasa pemrograman C yang digunakan untuk INPUT-OUTPUT , tanpa menggunakan library tersebut maka program C yang kita buat tidak bisa digunakan untuk menampilkan atau menginput sesuatu. Singkatan Stdio sendiri adalah Standard Input Output.

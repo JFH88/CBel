@@ -1,0 +1,10 @@
+do-while loop:
+
+do {
+    // Blok kode yang akan diulang
+} while (kondisi);
+
+Blok kode yang berada di dalam kurung kurawal {} akan diulang setidaknya satu kali, 
+bahkan jika kondisi tidak benar pada awalnya.
+
+kondisi: Ekspresi boolean yang menentukan apakah loop akan terus berlanjut atau tidak.

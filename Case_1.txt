@@ -1,0 +1,11 @@
+Case Study 1 (Theory Application in Coding)
+Cecep ingin membuat program. Ia ingin menggunakan tipe data angka yang bisa menampung hingga 4 digit angka. Kemudian, dia juga ingin menggunakan tipe data yang bisa menampung kalimat yang diinputkan oleh user. Di dalam programnya, Cecep juga perlu menggunakan konstanta phi. Apa yang sekiranya harus dideklarasikan oleh Cecep?@
+Untuk 4 digit angka(nama variabelnya adalah "angka"):@
+int angka;@
+tipe data yang digunakan adalah "int", dan jangan lupa titik koma di akhir@
+Untuk kalimat(nama variabelnya adalah "kalimat" yang bisa menampung hingga 50 huruf beserta '\0'):@
+char kalimat[51];@
+"kalimat" terdiri dari kumpulan "karakter". Jumlah karakter yang digunakan adalah 50+1 (satu untuk '\0'), dan jangan lupa titik koma di akhir@
+konstanta phi(nama konstantanya adalah "PHI" dan berikan nilai "3.14". Gunakan tipe data "const"):@
+const PHI = 3.14;@
+untuk penulisan PHI, sama dengan, dan 3.14, sebaiknya dipisahkan dengan spasi untuk mempermudahkan kita sebagai programmer membaca program kita sendiri, dan jangan lupa titik koma di akhir@

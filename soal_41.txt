@@ -1,0 +1,12 @@
+1. Perhatikan potongan program berikut:
+enum boolean {Salah, Benar};
+
+int main()
+{
+  enum boolean b = Salah;
+  if(2<4) b = Benar;
+  if(b==Benar) printf("benar");
+}
+apakah output dari program ini?@
+benar@
+Perhatikanlah bahwa enum boolean memiliki 2 macam nilai, yaitu "Salah" dan "Benar"@

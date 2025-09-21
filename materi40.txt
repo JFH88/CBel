@@ -1,0 +1,41 @@
+
+contoh lain:
+
+FILE *file = fopen("data.txt", "r");
+
+if(file == NULL)
+{
+  printf("gagal membuka file");
+  exit(1);
+}
+
+int a,b;
+fscanf(file, "%d %d", &a,&b);
+printf("%d", b);
+
+Jika pada file tertulis:
+5 9
+
+Berikut adalah penjelasan langkah demi langkah dari potongan kode tersebut:
+
+FILE *file = fopen("data.txt", "r");:
+
+Membuka file "data.txt" dalam mode baca ("r").
+Fungsi fopen mengembalikan pointer ke struktur FILE jika pembukaan berhasil, atau NULL jika terjadi kesalahan.
+if(file == NULL) { printf("gagal membuka file"); exit(1); }:
+
+Memeriksa apakah pembukaan file berhasil atau tidak.
+Jika file sama dengan NULL, berarti terjadi kesalahan dalam pembukaan file, dan program akan menampilkan pesan kesalahan dan keluar dari program dengan status keluar 1.
+int a, b; fscanf(file, "%d %d", &a, &b);:
+
+Menggunakan fscanf untuk membaca dua integer dari file "data.txt" yang dipisahkan oleh spasi.
+Data yang dibaca disimpan dalam variabel a dan b.
+printf("%d", b);:
+
+Menampilkan nilai dari variabel b ke layar.
+Jika pada file "data.txt" tertulis:
+5 9
+
+Maka nilai dari a akan menjadi 5 dan nilai dari b akan menjadi 9. Program kemudian akan menampilkan nilai dari b menggunakan pernyataan printf("%d", b);, sehingga output yang diharapkan dari program ini adalah:
+9
+

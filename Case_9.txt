@@ -1,0 +1,37 @@
+Case Study 9 (Coding Analysis)
+Cecep telah belajar tentang struct, dan baru saja berhasil membuat struct. Berikut struct yang dibuat Cecep:
+
+struct Tanggal
+{
+  int tgl;
+  int bln;
+  int thn;
+}tanggal;
+
+struct orang
+{
+  char namaDepan[51];
+  char namaBelakang[51];
+  int umur;
+  tanggal tanggalLahir;
+};
+
+Namun, Cecep masih kesulitan dalam penggunaannya. Bantu Cecep untuk menyelesaikan programnya dengan struct@
+Jika Cecep ingin mendeklarasikan "struct orang" dengan nama "org", apa yang harus dituliskannya?@
+struct orang org;@
+"struct orang" di sini berperilaku seperti tipe data variabel. Jangan lupa untuk menyertakan titik koma di akhir@
+Jika ia ingin mengakses "namaDepan", apa yang harus dituliskannya?(dari struct orang yang bernama "org")@
+org.namaDepan@
+Tuliskan (nama_struct).(nama_variabel_yang_ingin_diakses) dengan tanpa kurung@
+Jika ia ingin mengakses "tgl", apa yang harus dituliskannya?(dari struct orang yang bernama "org")@
+org.tanggalLahir.tgl@
+Tuliskan (nama_struct).(struct_yang_ingin_diakses).(nama_variabel_yang_ingin_diakses) dengan tanpa kurung@
+Jika Cecep ingin mendeklarasikan "struct orang" dengan nama "org" yang bisa menampung 10 data nama, apa yang harus dituliskannya?@
+struct orang org[10];@
+Pendeklarasiannya kurang lebih sama dengan soal sebelumnya. Hanya saja ini berupa array. Tinggal menambahkan kurung siku setelah kata "org" yang diisi dengan jumlah data@
+Jika ia ingin mengakses "namaDepan" data ke 4(bukan index ke-4), apa yang harus dituliskannya?(dari struct orang yang bernama "org")@
+org[3].namaDepan@
+Tuliskan (nama_struct)[index_yang_ingin_diakses].(nama_variabel_yang_ingin_diakses) dengan tanpa kurung bulat. Ingat pula bahwa index array selalu dimulai dari 0@
+Jika ia ingin mengakses "tgl" data ke 4(bukan index ke-4), apa yang harus dituliskannya?(dari struct orang yang bernama "org")@
+org[3].tanggalLahir.tgl@
+Tuliskan (nama_struct)[index_yang_ingin_diakses].(struct_yang_ingin_diakses).(nama_variabel_yang_ingin_diakses) dengan tanpa kurung bulat. Ingat pula bahwa index array selalu dimulai dari 0@

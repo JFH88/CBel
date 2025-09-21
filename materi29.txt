@@ -1,0 +1,54 @@
+Scope (lingkup) dalam bahasa pemrograman C merujuk pada wilayah di dalam program di mana suatu variabel atau fungsi dapat diakses atau dimanipulasi. Setiap variabel atau fungsi memiliki scope yang menentukan di mana variabel atau fungsi tersebut dapat digunakan atau diakses.
+Ada beberapa jenis scope utama dalam bahasa C:
+
+
+Global Scope:
+
+Variabel atau fungsi dengan global scope dapat diakses dari seluruh program, baik di dalam fungsi maupun di luar fungsi.
+Deklarasi variabel atau fungsi dengan global scope ditempatkan di luar semua fungsi, biasanya di awal file program atau dalam file header.
+Contoh:
+
+#include <stdio.h>
+
+// Global variable
+int globalVar = 10;
+
+// Global function
+void globalFunction() {
+    printf("Global Function\n");
+}
+
+int main() {
+    // Mengakses variabel dan fungsi global
+    printf("Global Variable: %d\n", globalVar);
+    globalFunction();
+
+    return 0;
+}
+
+Local Scope:
+
+Variabel atau fungsi dengan local scope hanya dapat diakses di dalam blok kode di mana mereka dideklaras.
+Variabel lokal biasanya dideklaras di dalam suatu fungsi, dan fungsi lokal hanya dapat dipanggil dari dalam fungsi yang sama.
+Contoh:
+
+#include <stdio.h>
+
+void localFunction() {
+    // Local variable
+    int localVar = 5;
+
+    printf("Local Variable: %d\n", localVar);
+}
+
+int main() {
+    // Memanggil fungsi lokal
+    localFunction();
+
+    // Variabel localVar tidak dapat diakses di sini
+    // printf("Trying to access localVar: %d\n", localVar);
+
+    return 0;
+}
+
+Penting untuk memahami scope karena hal ini mempengaruhi cara variabel atau fungsi digunakan dan berinteraksi di dalam program. Pemahaman tentang scope membantu mencegah konflik nama, meningkatkan keterbacaan kode, dan memastikan bahwa variabel atau fungsi hanya digunakan di tempat-tempat yang sesuai.

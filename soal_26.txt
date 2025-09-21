@@ -1,0 +1,6 @@
+1. Salah satu cara untuk menyimpan data yang sejenis(homogen), kita dapat menggunakan ...@
+array@
+topik materi yang dibahas pada bab ini@
+2. Elemen pada array dapat kita akses melalui angka yang kita sebut dengan ...@
+index@
+angka tersebut selalu dimulai dari angka 0@

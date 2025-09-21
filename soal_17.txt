@@ -1,0 +1,10 @@
+1. Perhatikan potongan program berikut:
+int nilai = 80;
+int status = (nilai>=70) ? 1 : 0;
+if(status == 1)
+  printf("lulus");
+else
+  printf("remedi");
+apa output program ini?(Tuliskan "-" (tanpa petik) jika tidak ada)@
+lulus@
+agar status bernilai 1, maka kondisi di depannya harus bernilai "True"@

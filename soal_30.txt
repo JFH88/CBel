@@ -1,0 +1,6 @@
+1. Apakah dalam C, sebenarnya ada tipe data "string"?(ya/tidak)@
+tidak@
+dalam C, tidak ada tipe data string@
+2. Apa nama lain dari "string" dalam C?@
+array of character@
+string merupakan kumpulan karakter yang direpresentasikan dalam array@

@@ -1,0 +1,99 @@
+Case Study 4 (Guided Coding)
+Candra baru saja mengikuti ujian, dan baru saja diumumkan hasilnya. Ia ingin tahu grade yang didapatkan olehnya. Ia tahu sistem penilaiannya, tetapi ia malas mencocokkan dengan tabelnya. Maka dari itu, ia meminta bantuanmu untuk membuat programnya. Berikut sistem penilaian di kampusnya:
+  Nilai  | Grade
+------------------
+  90-100 |   A
+  80-89  |   B
+  70-79  |   C
+  60-69  |   D
+  50-59  |   E
+   <50   |   F
+Ia juga memintamu untuk menentukan, apakah dia lulus atau tidak, jika standar minimum yang harus dicapainya adalah D. Berikut format yang diinginkannya
+
+Masukkan nilai: 70
+Grade: C
+Status: Lulus
+
+Masukkan nilai: 50
+Grade: E
+Status: Tidak Lulus
+
+Format penulisan fungsi(printf dan scanf):
+nama_fungsi(format, ..., ..., ....);
+Format penulisan if else:
+if(namaVariabel operator kondisi ...)
+contoh: if(a >= 10 && a <= 20) -> gunakan "kurang dari sama dengan atau lebih dari sama dengan" & selalu dahulukan kondisi dengan angka terkecil
+@
+Mari kita deklarasikan headernya terlebih dahulu@
+#include <stdio.h>@
+headernya "standard input output"@
+Kemudian fungsi main bertipe "int"(tanpa buka tutup kurung kurawal)@
+int main()@
+fungsi "int main()" dengan tanpa buka tutup kurung kurawal@
+Sekarang kita telah ada di dalam fungsi main. Kemudian deklarasikan variabel bertipe integer dengan nama "nilai"@
+int nilai;@
+deklarasikan variabel "int" dengan tanpa memberikan nilai apapun@
+Mari kita membuat keterangan yang sesuai dengan format di atas, yaitu "Masukkan nilai: " dengan fungsi printf@
+printf("Masukkan nilai: ");@
+Jangan lupa untuk menyertakkan spasi di belakang kata "nilai"@
+Kemudian deklarasikan input dengan scanf. Jangan lupa untuk menggunakan format di atas@
+scanf("%d", &nilai);@
+jangan lupa untuk menyertakan tanda "&" di depan nama variabel@
+Mari kita buat fungsi selectionnya. Mari kita buat dengan fungsi if else
+Pertama, mari kita buat untuk kondisi untuk grade A. Jangan lupa untuk mengikuti format di atas ya(Gunakan 2 kondisi)@
+if(nilai >= 90 && nilai <= 100)@
+kondisinya adalah lebih dari sama dengan 90 dan kurang dari sama dengan 100. Ingat, karena penulisan if tidak perlu titik koma di belakang@
+Mari kita outputkan gradenya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Grade: A\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Lalu, outputkan statusnya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Status: Lulus\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Kemudian, mari kita buat untuk kondisi untuk grade B. Jangan lupa untuk mengikuti format di atas ya(Gunakan 2 kondisi)@
+if(nilai >= 80 && nilai <= 89)@
+kondisinya adalah lebih dari sama dengan 80 dan kurang dari sama dengan 89. Ingat, karena penulisan if tidak perlu titik koma di belakang@
+Mari kita outputkan gradenya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Grade: B\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Lalu, outputkan statusnya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Status: Lulus\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Kemudian, mari kita buat untuk kondisi untuk grade C. Jangan lupa untuk mengikuti format di atas ya(Gunakan 2 kondisi)@
+if(nilai >= 70 && nilai <= 79)@
+kondisinya adalah lebih dari sama dengan 70 dan kurang dari sama dengan 79. Ingat, karena penulisan if tidak perlu titik koma di belakang@
+Mari kita outputkan gradenya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Grade: C\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Lalu, outputkan statusnya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Status: Lulus\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Kemudian, mari kita buat untuk kondisi untuk grade D. Jangan lupa untuk mengikuti format di atas ya(Gunakan 2 kondisi)@
+if(nilai >= 60 && nilai <= 69)@
+kondisinya adalah lebih dari sama dengan 60 dan kurang dari sama dengan 69. Ingat, karena penulisan if tidak perlu titik koma di belakang@
+Mari kita outputkan gradenya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Grade: D\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Lalu, outputkan statusnya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Status: Lulus\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Kemudian, mari kita buat untuk kondisi untuk grade E. Jangan lupa untuk mengikuti format di atas ya(Gunakan 2 kondisi)@
+if(nilai >= 50 && nilai <= 59)@
+kondisinya adalah lebih dari sama dengan 50 dan kurang dari sama dengan 59. Ingat, karena penulisan if tidak perlu titik koma di belakang@
+Mari kita outputkan gradenya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Grade: E\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Lalu, outputkan statusnya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Status: Tidak Lulus\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Kemudian, mari kita buat untuk kondisi untuk grade F. Jangan lupa untuk mengikuti format di atas ya(Gunakan 1 kondisi)@
+if(nilai <= 49)@
+kondisinya adalah kurang dari sama dengan 49. Ingat, karena penulisan if tidak perlu titik koma di belakang@
+Mari kita outputkan gradenya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Grade: F\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Lalu, outputkan statusnya dengan printf. Jangan lupa menambahkan newline (\n) sebelum petik tutup, dan ikuti format yang diinginkan Candra@
+printf("Status: Tidak Lulus\n");@
+Jangan lupa untuk menyertakan titik koma di akhir@
+Selamat, kamu telah berhasil membantu Candra. Sekarang tinggal menuliskan nilai returnnya@
+return 0;@
+Yang dimaksud adalah "return 0;"@

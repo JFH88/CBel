@@ -1,0 +1,6 @@
+1. Tuliskan nama tipe data yang berupa huruf@
+char@
+Jawaban terdiri dari 4 huruf@
+2. Cahyo ingin membuat format specifier untuk integer. Apa yang harus dituliskan Cahyo?@
+%d@
+format specifier selalu menggunakan tanda "%"@

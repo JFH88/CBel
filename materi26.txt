@@ -1,0 +1,46 @@
+SUB PROGRAM ( membagi program menjadi beberapa bagian)
+
+teknik memecah program menjadi sub program disebut modular.
+Dalam bahasa pemrograman C, istilah "subprogram" sering kali merujuk kepada dua konsep utama: fungsi dan prosedur.
+
+Fungsi:
+
+Sebuah fungsi adalah blok kode yang dapat dipanggil oleh program utama atau fungsi lain untuk melakukan tugas tertentu.
+Fungsi dapat mengembalikan nilai ke tempat pemanggilnya menggunakan pernyataan return.
+
+#include <stdio.h>
+
+// Deklarasi fungsi
+int tambah(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    // Pemanggilan fungsi
+    int hasil = tambah(3, 5);
+    printf("Hasil penjumlahan: %d\n", hasil);
+
+    return 0;
+}
+
+
+Prosedur(VOID):
+
+Sebuah prosedur adalah blok kode yang dapat dipanggil oleh program utama atau fungsi lain untuk menjalankan serangkaian pernyataan tanpa mengembalikan nilai.
+Prosedur tidak menggunakan pernyataan return untuk mengembalikan nilai.
+Contoh:
+
+#include <stdio.h>
+
+// Deklarasi prosedur
+void sapa() {
+    printf("Halo, dunia!\n");
+}
+
+int main() {
+    // Pemanggilan prosedur
+    sapa();
+
+    return 0;
+}
+Prosedur dalam contoh di atas adalah sapa, yang hanya mencetak pesan ke layar.

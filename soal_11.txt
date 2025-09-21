@@ -1,0 +1,12 @@
+1. Perhatikan potongan program berikut:
+int a = 10;
+int b = 20;
+Jika Cecep menuliskan ((a<=b) && (a==b)), maka hasilnya adalah(t/f)@
+f@
+ingat, and(&&) selalu membutuhkan semua kondisi bernilai benar agar nilai yang dihasilkan juga bernilai benar@
+2. Perhatikan potongan program berikut:
+int a = 0;
+int b = 0;
+Jika Cecep menuliskan ((a<=b) || (a==b)), maka hasilnya adalah(t/f)@
+t@
+ingat, or(||) hanya memerlukan salah satu kondisinya bernilai benar agar nilai yang dihasilkan juga bernilai benar@

@@ -1,0 +1,20 @@
+Dalam bahasa pemrograman C, ada dua jenis alokasi memori: alokasi memori statis dan alokasi memori dinamis. Alokasi memori statis terjadi pada saat kompilasi dan dilakukan secara otomatis ketika program dimuat ke dalam memori. Berikut adalah beberapa contoh alokasi memori statis dalam C:
+
+Alokasi Memori Static untuk Array:
+
+#include <stdio.h>
+
+int main() {
+    // Array dengan alokasi memori statis
+    int staticArray[5] = {1, 2, 3, 4, 5};
+
+    printf("Elemen-elemen dari staticArray: ");
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", staticArray[i]);
+    }
+
+    return 0;
+}
+Dalam contoh ini, staticArray adalah array dengan alokasi memori statis. Alokasi memori terjadi pada saat program dimuat ke dalam memori.
+
+Alokasi memori statis cocok untuk situasi di mana ukuran dan keberadaan memori dapat diketahui pada waktu kompilasi. Namun, jika kita perlu menangani data yang ukurannya tidak diketahui pada waktu kompilasi atau perlu mengalokasikan memori secara dinamis selama program berjalan, alokasi memori dinamis menggunakan fungsi seperti malloc() dan free() menjadi lebih relevan.

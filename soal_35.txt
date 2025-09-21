@@ -1,0 +1,15 @@
+1. Perhatikan potongan program berikut:
+int kali()
+{
+  int hasil = 2*3;
+  return hasil;
+}
+
+int main()
+{
+  kali();
+  printf("%d", hasil);
+}
+Apakah program tersebut dapat dijalankan?(ya/tidak)@
+tidak@
+scope dari variabel "hasil" hanya di dalam fungsi "kali"@
