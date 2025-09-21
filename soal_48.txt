@@ -1,0 +1,13 @@
+1. Perhatikan potongan program berikut:
+FILE *file = fopen("data.txt", "r");
+
+if(file == NULL)
+{
+  printf("gagal membuka file");
+  exit(1);
+}
+
+fprintf("Adi,30");
+Apakah program ini dapat dijalankan?(ya/tidak)@
+tidak@
+untuk memakai fungsi fprintf, kita harus mempassing nama pointer ke file yang kita gunakan@

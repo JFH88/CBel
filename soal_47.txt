@@ -1,0 +1,6 @@
+1. Cahyo ingin membuka file "data.txt" untuk menambahkan data ke file. Fungsi apa yang harus digunakan oleh Cahyo?(tuliskan dengan tanpa kurung)@
+fopen@
+fungsi yang digunakan adalah "file open"@
+2. Setelah selesai, Cahyo menutup filenya dengan fungsi ...(tuliskan dengan tanpa kurung)@
+fclose@
+fungsi yang digunakan adalah "file close"@
